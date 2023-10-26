@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="img/style.css">
+    <!-- jquery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg  navbar-light sticky-top" id="top_nav">
+        <div class="container-fluid gx-1">
+            <a class="navbar-brand" href="#">
+                <img src="http://www.redrockwebsitesolutions.com/images/logo.png" alt="" width="150px"
+                    class="img-fluid">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  mb-2  mb-lg-0" id="navbar_nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">web-development</a></li>
+                            <li><a class="dropdown-item" href="#">app development</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">seo</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">contact us</a>
+                    </li>
+                </ul>
+                <button class="btn btn-outline-dark" type="submit">Search</button>
+            </div>
+        </div>
+    </nav>
+    <!-- container-fluid -->
+    <div class="conatainer-fluid" id="banner">
+        <!-- banner -->
+        <div class="row justify-content-center gx-0">
+            <div class="col-sm-6 col-fluid" id="banner-content">
+                <h1 id="head_heading"> SEO
+                    MARKETING EXPERTS
+                </h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, reiciendis tempora perferendis
+                    perspiciatis officiis possimus corrupti, voluptas</p>
+                <button type="button" class="btn button" id="banner-btn-1"> <span><i class="bi bi-person-lines-fill">
+                        </i></span>Contact Us</button>
+                <button type="button" class="btn button" id="banner-btn-2">Our Services<span><i
+                            class="bi bi-chevron-right"></i></span></button>
+            </div>
+            <div class="col-sm-5 col-fluid" id="bannerimg">
+                <img src="https://img.freepik.com/free-vector/microsites-concept-illustration_114360-7582.jpg?w=740&t=st=1696482409~exp=1696483009~hmac=6575b339b9998923cce907911fa563871156a104b3ca1faefb55599d72b33e52"
+                    alt="" class="img-fluid">
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- cards -->
+
+    <div class="container">
+        <div class="row text-cente justify-content-center" id="top_cards">
+            <div class="col-md-3 card top_card" id="top_card_1">
+                <i class="bi bi-code-slash"></i>
+                <h3>Website Designing</h3>
+                <p>We understand client's requirements and <br>
+                    recommend them the best solution and deliver <br>
+                    strong and clear communication</p>
+            </div>
+            <div class="col-md-3 card top_card" id="top_card_2">
+                <div><i class="bi bi-laptop"></i></div>
+                <h3>Website Designing</h3>
+                <p>We understand client's requirements and <br>
+                    recommend them the best solution and deliver <br>
+                    strong and clear communication</p>
+            </div>
+            <div class="col-md-3 card top_card" id="top_card_3">
+                <div><i class="bi bi-laptop"></i></div>
+                <h3>Website Designing</h3>
+                <p>We understand client's requirements and <br>
+                    recommend them the best solution and deliver <br>
+                    strong and clear communication</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- about-us-seo -->
+    <div class="container-fluid">
+        <!-- tagline-1 -->
+        <div class="row m-5">
+            <div class="col-md-6">
+                <h3 class="display-5 text-center mt-5 seo-head">About us <b class="text-danger">SEO </b>?</h3>
+                <h5 class="display-6 mb-3 text-center">Right place!</h5>
+                <p class="lead">At Red rock website solution, the well known name among enormous clients all across the
+                    globe. We
+                    provide everything you will ever need to put together a solid web presence for your small or medium
+                    sized business. The company specializes in internet marketing services including SEO and web
+                    designing, pay per click. We cater to those businesses who want to get off the ground and generate
+                    more awareness of their presence on the internet without having to worry about the latest
+                    technologies.</p>
+                <a href="#" class="know-more" type="button">Know More </a>
+            </div>
+            <div class="col-md-6 mt-5">
+                <img src="img/about_seo_img.jpg" alt="" class="img-fluid about_img">
+            </div>
+        </div>
+    </div>
+    <!-- services -->
+    <div class="container">
+        <!-- seo-services -->
+        <div class="row gx-5 text-center">
+            <div class="col-fluid">
+                <h2 class="display-2 text-center mt-3 ">Our Services</h2>
+                <hr class="light">
+            </div>
+            <div class="col-fluid mt-4 text-center">
+                <h4 class="display-4">Search Engine Optimization</h4>
+            </div>
+            <div class="col-md-5 col-lg-4  ">
+                <img src="img/seo.jpg" alt="" class="rounded img-fluid img-seo">
+            </div>
+
+            <div class="col-md-6 col-lg-6 mt-2 ">
+
+                <p class="lead">Organic SEO is a technique of increasing the status high level of a certain website. We
+                    are providing web pages visibility in major search engines such as Google, Yahoo, Msn, Bing and a
+                    lot more. There are many techniques including Keyword Research and Optimization, Meta Tags Analysis,
+                    HTML Coding, Content Management System, Article, Press Release and Blog Submission, These methods
+                    include directories, link farms, social bookmarks, forums and blogs</p>
+            </div>
+        </div>
+        <!-- smo services -->
+        <div class="row gx-5 text-center">
+            <div class="col-fluid mt-4 text-center">
+                <h4 class="display-4">SMO Services</h4>
+            </div>
+            <div class="col-md-6 mt-2">
+                <p class="lead">SMO is the process of increasing brand name or product awareness, building brand image,
+                    connecting
+                    with the customers, and attracting visitors through all social media platforms like as Facebook,
+                    Twitter, Pinterest, Linkedin, Instagram, YouTube etc. Social Media Marketing company with extensive
+                    experience with social media and knows how to successfully design and implement effective SMO Social
+                    ads for businesses.</p>
+            </div>
+            <div class="col-6 mt-2">
+                <img src="img/smo.jpg" alt="smo" class="img-fluid">
+            </div>
+        </div>
+        <!--Reputation Management  -->
+        <div class="row gx-5 text-center">
+            <div class="col-fluid mt-4">
+                <h4 class="display-4">Reputation Management</h4>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <img src="img/reputation_management_img.png" alt="reputation-management" class="img-fluid">
+            </div>
+            <div class="col-md-6 col-lg-6">
+
+                <p class="lead">Don’t let a poor reputation management online damage your company’s sales. Redrock
+                    website solutions has been working with companies for years now, to improve their online reputation.
+                    Whether you organization is large or small, you should never underestimate the cost of a poor
+                    reputation. Our online management services are designed to delve deep into Social Media, find
+                    references of your brand and protect it against negative brand associations.</p>
+            </div>
+        </div>
+        <!--content-marketing  -->
+        <div class="row gx-5 text-center">
+            <div class="col-fluid mt-4">
+                <h4 class="display-4">Content Marketing</h4>
+            </div>
+            <div class="col-md-7 col-lg-7">
+
+                <p class="lead">We create the genuine, valuable and dependable content that users find good to read.
+                    Redrock website solutions believes that a delightful content is able to create several memories,
+                    hence we ensure our every piece of writing to be entertaining and informative till the end! Our
+                    Content Writing Services are developed in such a way that people gets engaged to every content we
+                    present. This is our way of connecting right people with your brand by touching their emotional
+                    nerve. We follow the strategy of promoting your business, presenting your journey in the form of a
+                    story that highlights the strong aspects of your business</p>
+            </div>
+            <div class="col-md-5 col-lg-4">
+                <img src="img/content-marketing.jpg" alt="reputation-management" class="img-fluid">
+            </div>
+        </div>
+        <!-- Pay Per Click -->
+        <div class="row gx-5 text-center">
+            <div class="col-fluid mt-4">
+                <h4 class="display-4">Pay Per Click</h4>
+            </div>
+            <div class="col-md-4 col-lg-4">
+                <img src="img/pay-per-click.jpg" alt="reputation-management" class="img-fluid pay-per-click-img">
+            </div>
+            <div class="col-md-8 col-lg-6">
+
+                <p class="lead">The Pay per click management is highly taking the online world by surprise, At REDROCK
+                    website solutions, we can management your PPC campaigns, for creative to the first sale, These Ads
+                    appear alongside and above the organic search results. These campaigns are able to run on all
+                    well-known search engines like Google AdWords, Yahoo Search Marketing and Bing adCenter. All the SEO
+                    techniques which help in improving the ranking of your website on the organic search results may
+                    require a lot of effort and time. Ratings, branding and other details can easily be shown using
+                    these methods making it simpler to gain a client base.</p>
+            </div>
+        </div>
+        <!--app-marketing  -->
+        <div class="row gx-5 text-center">
+            <div class="col-fluid mt-4">
+                <h4 class="display-4">App Marketing</h4>
+            </div>
+            <div class="col-md-7 col-lg-7">
+
+                <p class="lead">Mobile Application is a crucial area that allows you to interact with your customers. An
+                    app is a haven for your business through which your committed customer is always in contact with
+                    you, in single click. Mobile app is a fully customized user interface, as per your business needs.
+                    However, for most of the businesses, creating an app is not an issue, but the main issue is the app
+                    promotion.</p>
+            </div>
+            <div class="col-md-5 col-lg-4">
+                <img src="img/app-marketing.jpg" alt="reputation-management" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <!-- Packages -->
+    <div class="container">
+        <div class="row">
+            <div class="col-fluid">
+                <h3 class="display-5 text-center mt-5 seo-head">SEO + SMO <b class="text-danger">Packages</b>?</h3>
+                <h4 class="display-6 text-center mt-2 mb-4">Pick Your Packages</h4>
+            </div>
+        </div>
+    </div>
+    <!-- cards -->
+    <div class="container-fluid bg-secondary">
+        <div class="row">
+            <div class="col py-5 ms-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/card-1.jpg" class="card-img-top card-img-1" alt="card-1">
+                    <div class="card-body">
+                        <h5 class="card-title display-6">Standard</h5>
+                        <ul>
+                            <li><b>50GB</b>Disk Space</li>
+                            <li><b>50</b>Email Accounts</li>
+                            <li><b>50GB</b>Bandwidth</li>
+                            <li><b>10</b>Subdomain</li>
+                            <li><b>15</b>Domains</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary card-btn">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col py-5 ms-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/card-2.jpg" class="card-img-top" alt="card-2">
+                    <div class="card-body">
+                        <h5 class="card-title display-6">Business</h5>
+                        <ul>
+                            <li><b>60GB</b>Disk Space</li>
+                            <li><b>60</b>Email Accounts</li>
+                            <li><b>60GB</b>Bandwidth</li>
+                            <li><b>15</b>Subdomain</li>
+                            <li><b>20</b>Domains</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary card-btn">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col py-5 ms-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/card-3.jpg" class="card-img-top" alt="card-3">
+                    <div class="card-body">
+                        <h5 class="card-title display-6">Premium</h5>
+                        <ul>
+                            <li><b>70GB</b>Disk Space</li>
+                            <li><b>70</b>Email Accounts</li>
+                            <li><b>70GB</b>Bandwidth</li>
+                            <li><b>20</b>Subdomain</li>
+                            <li><b>25</b>Domains</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary card-btn">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- portfolio -->
+
+    <div class="container-fluid">
+        <div class="row text-center mt-5 mb-3">
+            <div class="col mt-5 mb-2">
+                <h1 class="display-4"> FROM <SPAN class="text-danger">PORTFOLIO</SPAN></h1>
+            </div>
+        </div>
+        <div class="row  bg-secondary pt-5 pb-5">
+            <div class="col-lg-4 col-sm-6 p-3">
+                <figure class="figure">
+                    <img src="http://www.redrockwebsitesolutions.com/images/prof1.png"
+                        class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-sm-6 p-3">
+                <figure class="figure">
+                    <img src="http://www.redrockwebsitesolutions.com/images/prof2.png"
+                        class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-sm-6 p-3">
+                <figure class="figure">
+                    <img src="http://www.redrockwebsitesolutions.com/images/prof3.png"
+                        class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-sm-6 p-3">
+                <figure class="figure">
+                    <img src="http://www.redrockwebsitesolutions.com/images/prof4.png"
+                        class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-sm-6 p-3">
+                <figure class="figure">
+                    <img src="http://www.redrockwebsitesolutions.com/images/prof5.png"
+                        class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-sm-6 p-3">
+                <figure class="figure">
+                    <img src="http://www.redrockwebsitesolutions.com/images/prof6.png"
+                        class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- our-client -->
+    <div class="container ">
+        <div class="row my-5">
+            <div class="col-fluid text-center">
+                <h3 class="display-4">Our Clients</h3>
+            </div>
+            <hr>
+            <div class="col py-4 my-5">
+                <img src="http://www.redrockwebsitesolutions.com/images/clients1.png" alt="">
+            </div>
+            <div class="col py-4 my-5">
+                <img src="http://www.redrockwebsitesolutions.com/images/clients2.png" alt="">
+            </div>
+            <div class="col py-4 my-5">
+                <img src="http://www.redrockwebsitesolutions.com/images/clients3.png" alt="">
+            </div>
+            <div class="col py-4 my-5">
+                <img src="http://www.redrockwebsitesolutions.com/images/clients4.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- bottom -->
+    <div class="container-fluid bg-dark text-light">
+        <div class="row py-5  px-3">
+            <div class="col-lg-4">
+                <h3 class="">ABOUT US</h3>
+                <p>At Red rock website solution, the well known name among enormous clients all across the globe. We
+                    provide everything you will ever need to put together a solid web presence for your small or medium
+                    sized business. The company specializes in internet marketing services including SEO and web
+                    designing, pay per click. We cater to those businesses who want to get off the ground and generate
+                    more awareness of their presence on the internet without having to worry about the latest
+                    technologies.</p>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <h4>USEFULE LINKS</h4>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Portfolio</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <h5>NEWSLETTER</h5>
+                <p>Your about us information would fit here nicely.</p>
+
+                <div class="input-group flex-nowrap">
+                    <input type="text" class="form-control d-inline-flex p-2" placeholder="Search Content"
+                        aria-label="Username" aria-describedby="addon-wrapping">
+                </div>
+                <button type="button" class="btn btn-outline-light btn-lg mt-1 d-inline-flex p-2">Search</button><br>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-twitter-x"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-google"></i></i></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
